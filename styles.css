@@ -26,6 +26,7 @@ body {
   height: 90%;
   padding: 2% 5%;
   border-radius: 20px;
+  background-position: center;
 }
 
 .container:hover {
@@ -106,4 +107,89 @@ main {
   background-color: rgba(0, 0, 0, 0.232);
   outline: 2px solid white;
   color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+    height: 95%;
+  }
+
+  .menu {
+    width: 60%;
+  }
+
+  .hero {
+    width: 40%;
+  }
+
+  .hero > h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero > p {
+    font-size: 1rem;
+  }
+
+  .hero > button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .hero {
+    width: 80%;
+  }
+
+  .hero > h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero > p {
+    font-size: 0.9rem;
+  }
+
+  .hero > button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero > h1 {
+    font-size: 2rem;
+  }
+
+  .hero > p {
+    font-size: 0.8rem;
+  }
+
+  .hero > button {
+    font-size: 0.8rem;
+  }
 }
