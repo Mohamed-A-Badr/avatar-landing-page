@@ -143,12 +143,6 @@ main {
     align-items: center;
   }
 
-  .menu {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
   .menu li {
     margin: 10px 0;
   }
@@ -176,7 +170,11 @@ main {
     height: 100%;
     padding: 5%;
   }
-
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
   .hero {
     width: 100%;
   }
