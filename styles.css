@@ -78,17 +78,20 @@ main {
   width: 30%;
 }
 
+/* Title */
 .hero > h1 {
   font-size: 4.5rem;
   margin-bottom: 20px;
   color: white;
 }
 
+/* Description */
 .hero > p {
   color: white;
   margin: 20px 0;
 }
 
+/* Button */
 .hero > button {
   padding: 10px 20px;
   border: none;
